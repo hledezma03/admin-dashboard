@@ -1,0 +1,242 @@
+body {
+    background-color: #000;
+    margin: 0 1rem;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 32vh 5fr;
+}
+
+.sidebar {
+    background-color: #0891b2;
+    grid-row: 1/3;
+    padding: 1rem;
+    color: #fafafa;
+    fill: #fafafa;
+    text-align: start;
+}
+
+.logo , .sidebar-sections, .sidebar-settings {
+    margin-bottom: 48px;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#dashboard {
+    margin-right: 4px;
+    width: 2rem;
+    height: 2rem;
+}
+
+svg {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 16px;
+}
+
+.header {
+    background-color: #fafafa;
+    grid-column: 2/3;
+    padding: 1rem;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+form {
+    margin-left: 2rem;
+    margin-top: 8px;
+}
+
+.search input[type=text] {
+    width: 500px;
+    height: 25px;
+    border-radius: 25px;
+    border: none;
+    background-color: #e5e5e5;
+    margin-right: 5rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 7px;
+    margin-top: 12px;
+    padding-right: 2rem;
+}
+
+.search button {
+    background: none;
+    color: #000;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+#ring {
+    margin-top: 18px;
+    width: 24px;
+    height: 24px;
+}
+
+.profile {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    margin-top: 8px;
+    width: 3rem;
+    height: 3rem;
+}
+
+.profile-picture-big {
+    margin: 8px;
+    width: 6rem;
+    height: 6rem;
+}
+
+.greet {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.user-name {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.buttons {
+    margin-left: 10rem;
+}
+
+.btn {
+    color: #fafafa;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    padding: 8px 22px;
+    background-color: #0891b2;
+    margin: 12px;
+    border-radius: 25px;
+}
+
+.name {
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+.main-container {
+    background-color: #e5e5e5;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 1rem;
+}
+
+.title-section {
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+.projects-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.project {
+    background-color: #fafafa;
+    width: 280px;
+    height: 130px;
+    margin: 0 1rem 1rem 0;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    padding: 2rem;
+    font-size: 1vw;
+    border-left: 8px solid orange;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 16px;
+
+}
+
+.project-description {
+    color: #838181;
+}
+
+.icons-container {
+    display: flex;
+    justify-content: end;
+}
+
+.main-rigth-side {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.title-section-rigth {
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.trending-section, .announcements-section {
+    background-color: #fafafa;
+    margin: 8px 12px;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.announcement-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.text {
+    margin-top: 0;
+    font-size: 10px;
+    color: #838181;
+}
+
+.border {
+    border-bottom: 1px solid #c9c9c9;
+}
+.trending-account {
+    display: inline-flex;
+    justify-items: start;
+}
+
+.trending-picture {
+    margin-right: 16px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.trending-user {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.trending-description {
+    font-size: 12px;
+    color: #838181;
+}
